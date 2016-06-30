@@ -1,0 +1,119 @@
+/* Custom CSS ---------------*/
+
+/* Global Styling ---------------*/
+* { 
+  box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Clearfix ---------------*/
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* General ---------------*/
+body {
+	font-family: 'Open Sans', arial, sans-serif;
+	font-size: 16px;
+	color: #7f7f7f;
+	background-color: #dadada;
+	font-weight: 400;
+}
+
+/* Typography ---------*/
+section#portfolio h2,
+section#portfolio h3,
+section#portfolio p {
+	text-align: center;
+}
+
+/* Header ---------------*/
+header #logo,
+header nav {
+	text-align: center;
+}
+
+/* Navigation ---------------*/
+nav#main-nav ul {
+	padding: 0;
+	margin: 0;
+}
+nav#main-nav ul li {
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #333;
+	padding: 10px 15px;
+	background-color: #fff;
+	display: block; 
+}
+
+/* Layouts ---------*/
+.main-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Columns ---------*/
+.col_6,
+.col_4 {
+		padding-left: 1%;
+    	padding-right: 1%;
+	}
+
+/* Sections ---------*/
+section#portfolio {
+	background-color: #fff;
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
+/* Media Queries ---------*/
+@media screen and (min-width: 1024px) {
+	/* Navigation ---------------*/
+	#logo {
+		float: left;
+	}
+	nav#main-nav {
+		float: right;
+	}
+
+	nav#main-nav ul li {
+		display: inline-block;
+	}
+
+	nav a {
+		padding: 10px 15px;
+		background-color: transparent;
+	}
+
+	/* Columns ---------------*/
+	.col_6 {
+		width: 50%;
+		float: left;
+	}
+
+	.col_4 {
+		width: 33.333333%;
+		float: left;
+	}
+}
