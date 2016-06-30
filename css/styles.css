@@ -8,6 +8,8 @@
 img {
 	max-width: 100%;
 	height: auto;
+	display: block;
+    margin: auto;
 }
 
 /* Clearfix ---------------*/
@@ -27,10 +29,42 @@ body {
 }
 
 /* Typography ---------*/
+h1, h2, h3, h4, h5, h6 {
+	color: #4a4a4a;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	margin-bottom: 30px; 
+}
+
 section#portfolio h2,
 section#portfolio h3,
 section#portfolio p {
 	text-align: center;
+}
+
+section#portfolio h3,
+section#portfolio p,
+section#portfolio img {
+	padding-bottom: 30px;
+}
+
+section#portfolio h3,
+section#portfolio p {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+section#portfolio h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
 }
 
 /* Header ---------------*/
@@ -53,7 +87,7 @@ nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: #333;
+	color: #4a4a4a;
 	padding: 10px 15px;
 	background-color: #fff;
 	display: block; 
@@ -63,8 +97,12 @@ nav a {
 .main-wrapper {
 	max-width: 960px;
 	margin: 0 auto;
-	padding-left: 15px;
-    padding-right: 15px;
+	padding: 6% 15px;
+}
+
+section {
+	padding-top: 6%;
+	padding-bottom: 6%;
 }
 
 /* Columns ---------*/
