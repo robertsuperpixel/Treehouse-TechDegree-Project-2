@@ -12,7 +12,7 @@
 </head>
 <body>
 
-	<div class="main-wrapper">
+	<div id="top" class="main-wrapper">
 		<header class="clearfix">
 			<div id="logo">
 				<h1>Robert OHalloran</h1>
@@ -20,19 +20,19 @@
 
 			<nav id="main-nav">
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#top">Home</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
 
-		<section id="bio" class="clearfix">
+		<section id="bio" class="clearfix flex-container">
 			<div class="col_6">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
 			</div>
 			<div class="col_6">
-				<img src="img/responsive-layout-profile.png" alt="My profile image">
+				<img class="profile-img" src="img/responsive-layout-profile.png" alt="My profile image">
 			</div>
 		</section>
 
@@ -77,9 +77,9 @@
 
 		<footer id="contact">
 			<h4>Contact</h4>
-			<p>If you are interested in chatting or want more information about what I have been workign on, I'd live to hear from you.</p>
-			<p>Phone: <span>+1 (111) 555-1234</span></p>
-			<p>Email <span><a href="mailto:robert@mysite.com">robert@mysite.com</a></span></p>
+			<p class="contact-info">If you are interested in chatting or want more information about what I have been workign on, I'd live to hear from you.</p>
+			<p class="contact-details">Phone: <span>+1 (111) 555-1234</span></p>
+			<p class="contact-details">Email <span><a href="mailto:robert@mysite.com">robert@mysite.com</a></span></p>
 		</footer>
 	</div>
 </body>
