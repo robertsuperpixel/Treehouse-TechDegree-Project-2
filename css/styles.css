@@ -2,14 +2,14 @@
 
 /* Global Styling ---------------*/
 * { 
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 img {
 	max-width: 100%;
 	height: auto;
 	display: block;
-    margin: auto;
+	margin: auto;
 }
 
 /* Clearfix ---------------*/
@@ -24,7 +24,7 @@ body {
 	font-family: 'Open Sans', arial, sans-serif;
 	font-size: 16px;
 	color: #7f7f7f;
-	background-color: #dadada;
+	background-color: #fafafa;
 	font-weight: 400;
 }
 
@@ -72,7 +72,7 @@ section#portfolio p {
 }
 
 section#portfolio h3 {
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	font-weight: 700;
 }
 
@@ -80,18 +80,26 @@ footer {
 	padding: 20px 10px;
 }
 
+footer a {
+	color: #7f7f7f; 
+}
+
+footer a:hover {
+	color: #252525; 
+}
+
 footer#contact h4 {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-top: 10px;
-    margin-bottom: 30px;
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 30px;
 }
 
 footer#contact h4,
 footer#contact p {
 	text-align: center;
 	padding-left: 10%;
-    padding-right: 10%;
+	padding-right: 10%;
 }
 
 footer#contact p.contact-info {
@@ -101,6 +109,11 @@ footer#contact p.contact-info {
 footer#contact p.contact-details {
 	margin-bottom: 15px;
 }
+
+footer#contact p.contact-details span {
+	font-weight: bold;
+}
+
 
 /* Header ---------------*/
 header #logo,
@@ -144,7 +157,7 @@ nav a:hover {
 #bio,
 #contact {
 	padding-left: 15px;
-    padding-right: 15px;
+	padding-right: 15px;
 }
 
 section {
@@ -163,9 +176,9 @@ section {
 /* Columns ---------*/
 .col_6,
 .col_4 {
-		padding-left: 1%;
-    	padding-right: 1%;
-	}
+	padding-left: 1%;
+	padding-right: 1%;
+}
 
 /* Sections - Bio ---------*/
 .profile-img {
@@ -176,7 +189,7 @@ section {
 /* Sections - Portfolio ---------*/
 section#portfolio {
 	background-color: #fff;
-    padding: 20px 10px;
+	padding: 20px 10px;
 }
 
 
@@ -184,7 +197,7 @@ section#portfolio {
 @media screen and (min-width: 768px) {
 	/* Navigation ---------------*/
 	nav#main-nav ul li {
-	    display: inline-block;
+		display: inline-block;
 	}
 
 	nav a {
@@ -194,23 +207,23 @@ section#portfolio {
 
 	/* Columns ---------------*/
 	section#bio .col_6:nth-child(1){
-	    width: 60%;
-	    float: left;
+		width: 60%;
+		float: left;
 	}
 
 	section#bio .col_6:nth-child(2){
-	    width: 40%;
-	    float: left;
+		width: 40%;
+		float: left;
 	}
 
 	.col_4 {
-	    width: 50%;
-	    float: left;
+		width: 50%;
+		float: left;
 	}
 
 	/* Layout ---------------*/
 	.flex-container {
-	    display: block;
+		display: block;
 	}
 
 	/* Sections ---------------*/
@@ -219,7 +232,7 @@ section#portfolio {
 	}
 
 	.profile-img {
-	    width: 100%;
+		width: 100%;
 	}
 
 }
@@ -241,6 +254,12 @@ section#portfolio {
 		padding: 10px 15px;
 	}
 
+	/* Layouts ---------*/
+	.main-wrapper {
+		padding: 50px 0;
+	}
+
+
 	/* Columns ---------------*/
 	.col_4 {
 		width: 33.333333%;
@@ -249,13 +268,13 @@ section#portfolio {
 
 	/* Sections ---------------*/
 	section {
-	    padding-top: 4%;
-	    padding-bottom: 4%;
+		padding-top: 35px;
+		padding-bottom: 35px;
 	}
 
 	section#portfolio h3,
 	section#portfolio p {
-	    padding-left: 5%;
-	    padding-right: 5%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 }
